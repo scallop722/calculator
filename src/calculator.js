@@ -1,7 +1,6 @@
 var result = 0;
 var operator = '';
 
-
 /** 数字ボタンが押されたときのイベント */
 function num(num) {
   document.getElementById('result').value += num;
@@ -56,7 +55,7 @@ function back() {
   }
 }
 
-function plusminus() {
+function plusMinus() {
   let resultTag = document.getElementById('result');
   
 
